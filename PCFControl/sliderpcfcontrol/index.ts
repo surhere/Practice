@@ -90,7 +90,7 @@ export class sliderpcfcontrol implements ComponentFramework.StandardControl<IInp
          //@ts-ignore 
         var crmTagStringsAttributeValue = window.parent.Xrm.Page.getAttribute(optionsetAttribute).getText();
           //@ts-ignore
-        this._spanValue.innerHTML = "Init- "+crmTagStringsAttributeValue;
+        this._spanValue.innerHTML = crmTagStringsAttributeValue;
     }
 
 
